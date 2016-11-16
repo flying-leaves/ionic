@@ -1,0 +1,106 @@
+[{
+    "id": 1,
+    "name": "主菜",
+    "class": "main",
+    "ifChose": true,
+    "font":"&#xe606;",
+    "items": [{
+        "id": 1,
+        "name": "三金耗儿鱼111",
+        "price": 318.00,
+        "unit": "锅",
+        "count":0,
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }, {
+        "id": 2,
+        "name": "好大一条鱼111",
+        "price": 128.00,
+        "unit": "条",
+        "count":0,
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }]
+},{
+    "id": 2,
+    "name": "热菜",
+    "class": "hot",
+    "ifChose": false,
+    "font":"&#xe8d5;",
+    "items": [{
+        "id": 3,
+        "name": "三金耗儿鱼222",
+        "price": 318.00,
+        "unit": "锅",
+        "count":0,
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }, {
+        "id": 4,
+        "name": "好大一条鱼222",
+        "price": 128.00,
+        "unit": "条",
+        "count":0,
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }]
+},{
+    "id": 3,
+    "name": "凉菜",
+    "class": "cold",
+    "ifChose": false,
+    "font":"&#xe635;",
+    "items": [{
+        "id": 5,
+        "name": "三金耗儿鱼333",
+        "price": 318.00,
+        "unit": "锅",
+        "count":0,
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }, {
+        "id": 6,
+        "name": "好大一条鱼333",
+        "price": 128.00,
+        "unit": "条",
+        "count":0,
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }]
+},{
+    "id": 4,
+    "name": "汤品",
+    "class": "tang",
+    "ifChose": false,
+    "font":"&#xea13;",
+    "items": [{
+        "id": 7,
+        "name": "三金耗儿鱼444",
+        "price": 318.00,
+        "unit": "锅",
+        "count":0,
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }, {
+        "id": 8,
+        "name": "好大一条鱼444",
+        "price": 128.00,
+        "unit": "条",
+        "count":0,
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }]
+},{
+    "id": 5,
+    "name": "点心",
+    "class": "dessert",
+    "ifChose": false,
+    "font":"&#xe607;",
+    "items": [{
+        "id": 9,
+        "name": "三金耗儿鱼555",
+        "price": 318.00,
+        "unit": "锅",
+        "count":0,
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }, {
+        "id": 10,
+        "name": "好大一条鱼555",
+        "price": 128.00,
+        "unit": "条",
+        "count":0,
+        "pic": "http://dummyimage.com/750x460/ccc/333.jpg"
+    }]
+}]

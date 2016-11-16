@@ -1,0 +1,23 @@
+<ion-view>
+    <h1 class="menu-title">
+        <a href="#/home"> < </a>
+        <span>确认订单</span>
+    </h1>
+    <ion-item ng-repeat="item in data" class="menu-detail">
+        <span class="menu-name">{{item.name}}</span>
+        <p class="menu-price">¥{{item.price}}/{{item.unit}}</p>
+        <span class="count">
+            <i class="de" ng-click="decrease($index)" ng-if="item.count"></i>
+            <input type="text" ng-model="item.count" ng-if="item.count">
+            <i class="in" ng-click="increase($index)"></i>
+        </span>
+    </ion-item>
+
+    <div class="submit" ng-if="isShow"></div>
+    <div class="submitContent" ng-if="isShow">
+        <h3>确认让厨房开始制作菜品了吗</h3>
+        <div><span class="no" ng-click="no()">取消</span><span ng-click="yes()">确定</span></div>
+    </div>
+
+    <h2 class="footer"><span>已点{{allNum}}道菜,总价{{allPrice}}元</span><span ng-click="sendAll()" class="alreadyBooked">传送厨房</span></h2>
+</ion-view>

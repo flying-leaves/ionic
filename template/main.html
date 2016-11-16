@@ -1,0 +1,38 @@
+<ion-view>
+    <h2 class="title">渝北店，8号桌</h2>
+
+    <ion-content class="main-left">
+        <ion-list>
+            <ion-item ng-repeat="item in mainList" class="nav" ng-click="change($index)" ng-class="{'active': item.ifChose}">
+                <div class="line" ng-hide="$first"></div>
+                <div class="iconfont main" ng-bind-html="item.font"></div>
+                <span>{{item.name}}</span>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+
+    <ion-content class="main-right">
+        <h2 class="main-title">{{mainTitle}}</h2>
+            <ion-list>
+                <ion-item ng-repeat="item in mainRight" class="menu-item">
+                    <img ng-src="{{item.pic}}" class="big">
+                    <p class="name">{{item.name}}</p>
+                    <div class="content">
+                        <span class="price">¥{{item.price}}/{{item.unit}}</span>
+                        <span class="count">
+                            <i class="de" ng-click="decrease($index)" ng-if="item.count"></i>
+                            <input type="text" ng-model="item.count" ng-if="item.count">
+                            <i class="in" ng-click="increase($index)"></i>
+                        </span>
+                    </div>
+                </ion-item>
+            </ion-list>
+    </ion-content>
+
+    <!--href="#/tab/talkClass"-->
+    <h2 class="footer">
+        <span>已点{{allNum}}道菜</span>
+        <input ui-sref="menu" type="button" ng-disabled="!allNum" value="已点菜单" class="alreadyBooked"/>
+    </h2>
+
+</ion-view>
