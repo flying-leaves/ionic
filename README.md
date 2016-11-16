@@ -2,4 +2,4 @@
 
 #router
 
-#url:"http://htmlpreview.github.io/?https://github.com/flying-leaves/ionic/blob/master/index.html#/main"
+#url:"http://htmlpreview.github.io/?https://github.com/flying-leaves/ionic/blob/master/index.html"
